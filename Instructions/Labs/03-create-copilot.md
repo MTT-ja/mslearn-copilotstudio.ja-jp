@@ -43,15 +43,15 @@ lab:
 
 ### タスク 1.2 - エージェントを作成する
 
-1. 左側のナビゲーション ウィンドウで **[作成]** を選択し、右上の **[+ 新しいエージェント]** と **[構成のスキップ]** を選択します。
+1. 左側のナビゲーション ウィンドウで **[作成]** を選択し、右上の **[+ 新しいエージェント]** と **[作成]** を選択します。
 
-1. **[Name]** テキスト ボックスに「**`Real Estate Booking Service`**」と入力します。
+1. **[名前]** テキスト ボックスに「**`不動産予約サービス`**」と入力します。
 
-1. **[Description]** テキスト ボックスに「**`Create bookings for real estate properties`**」と入力します。
+1. **[説明]** テキスト ボックスに「**`不動産物件の予約を作成する`**」と入力します。
 
-1. **[Instructions]** テキスト ボックスに「**`Create an agent for topics relating to creating bookings for real estate properties`**」と入力します。
+1. **[指示]** テキスト ボックスに「**`不動産物件の予約作成に関するトピックのためのエージェントを作成する`**」と入力します。
 
-1. 上部で、**[Language]** を **English (en-US)** に設定してください。
+1. 上部で、**[言語]** を **English (en-US)** に設定してください。
 
     ![Copilot エージェント言語。](../media/copilot-agent-language.png)
 
@@ -59,7 +59,7 @@ lab:
 
     ![Copilot Studio ポータルのその他のオプション。](../media/copilot-studio-more-options-2.png)
 
-1. **[Solution]** で **[Bookings]** を選択します。
+1. **[ソリューション]** で **[Bookings]** を選択します。
 
 1. **[Schema Name]** に「`labagent`」と入力します。
 
@@ -67,7 +67,7 @@ lab:
 
 1. **[保存]** を選択します。
 
-1. 画面の右上で **[Create]** を選択します。
+1. 画面の右上で **[作成]** を選択します。
 
 1. 右側の **[エージェントのテスト]** ペインで「**`How do I make a booking?`**」と入力して応答を表示します。
 
@@ -85,34 +85,33 @@ lab:
 
 ### タスク 2.2 - ナレッジ ソースを追加する
 
-1. **[Knowledge]** タブを選択します。
+1. **[ナレッジ]** タブを選択します。
 
-    ![Copilot Studio ポータルの [Knowledge] タブ。](../media/knowledge-tab.png)
+    ![Copilot Studio ポータルの [ナレッジ] タブ。](../media/knowledge-tab.png)
 
-1. **[+ Add knowledge]** を選択します。
+1. **[+ ナレッジの追加]** を選択します。
 
-1. **[Public websites]** を選択する
+1. **[公開Webサイト]** を選択する
 
-1. **"Public website link"** テキスト ボックスに「**`https://create.microsoft.com/en-us/`**」と入力します。
+1. **"公開 Web サイトのリンク"** テキスト ボックスに「**`https://create.microsoft.com/en-us/`**」と入力します。
 
     ![Copilot Studio ポータルで公開 Web サイトのリンクを追加します。](../media/add-website-knowledge-source.png)
 
 1. **[追加]** を選択します。
 
-1. **[追加]** を選択します。
+1. **[エージェントに追加する]** を選択します。
 
 1. **[概要]** タブを選択します。
 
-1. **[Test your agent]** ウィンドウの上部にある **[three dots]** を選択します。
+1. **[エージェントをテストする]** ウィンドウの上部にある **[three dots]** を選択します。
 
-1. **[Track between topics]** を有効にします。
+1. 活動マップの設定から、**[トピック間の追跡]** を有効にします。
 
-    ![テスト パネル オプションのスクリーンショット。](../media/test-pane-options.png)
 
-1. **[Test your agent]** ウィンドウの上部で、**[Start a new conversation]** アイコン (更新アイコン) を選択します。
+1. **[エージェントをテストする]** ウィンドウの上部で、**[Start a new conversation]** アイコン (更新アイコン) を選択します。
 
     ![テスト パネル オプションのスクリーンショット。](../media/copilot-test-pane-start-new-conversation.png)
 
-1. **[Ask a question or describe what you need]** テキスト ボックスに、「**`How do I boost real estate promotion?`**」と入力します。 応答を表示します。 
+1. **[質問するか、または目的を説明します]** テキスト ボックスに、「**`不動産プロモーションを強化するにはどうすればよいですか？`**」と入力します。 応答を表示します。 
 
     ![テスト パネル結果のスクリーンショット。](../media/test-pane-results.png)

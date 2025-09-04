@@ -39,7 +39,7 @@ Microsoft Copilot Studio では、エンティティを使用してユーザー�
 
 1. 左側のナビゲーション ウィンドウから **[エージェント]** を選択します。
 
-1. 前のラボで作成した **[Real Estate Booking Service]** エージェントを選択します。
+1. 前のラボで作成した **[不動産予約サービス]** エージェントを選択します。
 
 1. 画面の右上にある **[Settings]** を選択します。
 
@@ -55,7 +55,7 @@ Microsoft Copilot Studio では、エンティティを使用してユーザー�
 
 1. **[Closed list]** タイルを選択します。
 
-1. **[Name]** フィールドに「**`Property Type`**」と入力します。
+1. **[名前]** フィールドに「**`Property Type`**」と入力します。
 
 1. **[Enter item]** フィールドに「**`Apartment`**」と入力し、**[Add]** を選択します。
 
@@ -85,7 +85,7 @@ Microsoft Copilot Studio では、エンティティを使用してユーザー�
 
 1. **[Regular expression (Regex)]** タイルを選択します。
 
-1. **[Name]** フィールドに「**`Number of Bedrooms`**」と入力します。
+1. **[名前]** フィールドに「**`Number of Bedrooms`**」と入力します。
 
 1. **[Pattern]** フィールドに「**`[1-5]`**」と入力します。
 
@@ -101,15 +101,15 @@ Microsoft Copilot Studio では、エンティティを使用してユーザー�
 
 ### タスク 2.1 - エンティティを使用する
 
-1. **[Topics]** タブを選択します。
+1. **[トピック]** タブを選択します。
 
 1. **[不動産の内見を予約する]** トピックを選択します。
 
 1. **[Condition]** ノードとプロパティ **[Question]** ノードの間の **[+]** アイコンを選択し、**[Ask a question]** を選択します。
 
-1. **"Enter a message"** フィールドに、次のテキストを入力します。
+1. **"メッセージを送信する"** フィールドに、次のテキストを入力します。
 
-    `What type of property do you want to see?`
+    `どの種類の物件をご覧になりたいですか？`
 
 1. **[Identify]** には、**[Property Type]** を選択します。
 
@@ -121,9 +121,9 @@ Microsoft Copilot Studio では、エンティティを使用してユーザー�
 
 1. 新しい **[Question]** ノードの下にある **[+]** アイコンを選択し、**[Ask a question]** を選択します。
 
-1. **"Enter a message"** フィールドに、次のテキストを入力します。
+1. **"メッセージを送信する"** フィールドに、次のテキストを入力します。
 
-    `How many bedrooms do you need?`
+    `寝室はいくつ必要ですか？`
 
 1. **[Identify]** には、**[Number of Bedrooms]** を選択します。
 

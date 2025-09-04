@@ -46,9 +46,9 @@ lab:
 
 1. 前のラボで作成したエージェントを選択します。
 
-1. **[Topics]** タブを選択します。
+1. **[トピック]** タブを選択します。
 
-1. **[Start Over]** トピックの **[Enabled]** を **[Off]** に切り替えます。
+1. **[最初からやりなおす]** トピックの **[有効]** を **[オフ]** に切り替えます。
 
     ![Copilot Studio ポータルでトピックが削除され無効になった様子。](../media/topics-removed.png)
 
@@ -58,35 +58,35 @@ lab:
 
 ### タスク 2.1 - コパイロットを使用してトピックを追加する
 
-1. **[+ Add a topic]** を選択し、**[Create from description with Copilot]** を選択します。 新しいウィンドウが開きます。
+1. **[+ トピックの追加]** を選択し、**[Copilot で説明をもとに追加する]** を選択します。 新しいウィンドウが開きます。
 
     ![Copilot でトピックを作成します。](../media/topic-create-from-description-2.png)
 
     ![Copilot でトピックを作成します。](../media/topic-create-with-copilot.png)
 
-1. **[Name your topic]** テキスト ボックスに「**`Customer Details`**」と入力します。
+1. **[トピック名を指定する]** テキスト ボックスに「**`顧客情報`**」と入力します。
 
-1. **[Create a topic to...]** テキスト ボックスに「**`Ask the customer for their name and email address.`**」と入力します。
+1. **[トピックを作成する...]** テキスト ボックスに「**`顧客の氏名とメール アドレスを尋ねる`**」と入力します。
 
-1. **[Create]** を選択します。
+1. **[作成]** を選択します。
 
-1. **[Save]** を選択します。
+1. **[保存]** を選択します。
 
 ### タスク 2.2 - 自然言語でノードを更新する
 
-1. **[Customer Details]** ペインの右側に **[Edit with CoPilot]** ペインが表示されない場合は、作成キャンバスの上部にある**Copilot** アイコンを選択します。
+1. **[顧客情報]** ペインの右側に **[Copilot で編集]** ペインが表示されない場合は、作成キャンバスの上部にある**Copilot** アイコンを選択します。
 
     ![[Copilot で編集] アイコンのスクリーンショット。](../media/edit-with-copilot.png)
 
-1. 2 番目の **[質問]** ノードである **[What is your email address?]** を選択します。
+1. 2 番目の **[質問]** ノードである **[メールアドレスを教えてください。]** を選択します。
 
     ![[Copilot で編集] アイコンのスクリーンショット。](../media/copilot-email-address-node.png)
 
 1. **Copilot で編集**パネルで、**何の操作を実行しますか?** フィールドに、次のテキストを入力します。
 
-    `Change "What is your email address?" to say thank you to the Name variable from the previous node and then proceed to ask the email address question.`
+    `前のノードの Name 変数にお礼を述べたあとに、メール アドレスを尋ねる質問に進むように変更してください。`
 
-1. **[更新]** を選択します。
+1. **[追加内容]**を選択し、**[更新]** を選択します。
 
     ![プロンプトを含む [Copilot で編集] パネルのスクリーンショット。](../media/edit-with-copilot-panel.png)
 
@@ -104,7 +104,7 @@ lab:
 
 1. **Copilot で編集**パネルで、**何の操作を実行しますか?** フィールドに、次のテキストを入力します。
 
-    `Summarize the information collected in an adaptive card`
+    `収集した情報をアダプティブ カードで要約してください`
 
 1. **[更新]** を選択します。
 
@@ -112,7 +112,7 @@ lab:
 
     ![アダプティブ カードを含むメッセージ ノードのスクリーンショット。](../media/message-node-adaptive-card.png)
 
-1. アダプティブ カードの **[Media]** ボックスを選択します。 画面の右側にアダプティブ カードのプロパティが表示されます。
+1. アダプティブ カードの **[メディア]** ボックスを選択します。 画面の右側にアダプティブ カードのプロパティが表示されます。
 
     ![アダプティブ カードのプロパティのスクリーンショット。](../media/adaptive-card-properties.png)
 
@@ -157,7 +157,7 @@ lab:
 
 1. **何の操作を実行しますか?** フィールドに、次のテキストを入力します。
 
-    `Add a new multiple choice question to prompt the user if the details are correct with two options Yes or No`
+    `詳細が正しいかをユーザーに確認するための新しい選択式の質問を追加し、選択肢は はい と いいえ の2つにしてください`
 
 1. **[更新]** を選択します。
 
@@ -173,7 +173,7 @@ lab:
 
 1. テスト パネルの上部にある **[新しい会話を開始する]** (更新) アイコンを選択します。
 
-1. **[Ask a question or describe what you need]** テキスト ボックスに、「**`Customer information`**」と入力します。
+1. **[質問するか、または目的を説明します]** テキスト ボックスに、「**`顧客情報`**」と入力します。
 
 1. 名前とメール アドレスを入力します。
 
@@ -185,25 +185,25 @@ lab:
 
 ### タスク 3.1 - 空白からトピックを作成する
 
-1. **Real Estate Booking Service** の上部バーにある **[Topics]** タブを選択します。
+1. **不動産予約サービス** の上部バーにある **[トピック]** タブを選択します。
 
-1. **[+ Add a topic]** を選択し、**[From blank]** を選択します。
+1. **[+ トピックを追加]** を選択し、**[最初から]** を選択します。
 
-1. **[Details]** アイコンを選択して、"Topic details" ダイアログを開きます。
+1. **[詳細]** アイコンを選択して、"トピックの詳細" ダイアログを開きます。
 
-    !["Topic details" ダイアログのスクリーンショット。 ](../media/topic-details.png)
+    !["トピックの詳細" ダイアログのスクリーンショット。 ](../media/topic-details.png)
 
 1. **"Name"** フィールドに、次のテキストを入力します。
 
-    `Book a Real Estate Showing`
+    `不動産の内見を予約する`
 
 1. **"Display Name"** フィールドに、次のテキストを入力します。
 
-    `Book`
+    `予約`
 
 1. **"Description"** フィールドに、次のテキストを入力します。
 
-    `Select the property and requested date and create a booking request`
+    `物件と希望日を選択して予約リクエストを作成する`
 
 1. **[保存]** を選択します。
 
@@ -213,14 +213,14 @@ lab:
 
     ![トピック トリガー フレーズのウィンドウのスクリーンショット。](../media/topic-trigger-phrases.png)
 
-1. **[フレーズの追加]** に「`I want to book a real estate showing`」と入力し、**+** アイコンを選択します。
+1. **[フレーズの追加]** に「`不動産の内見を予約したい`」と入力し、**+** アイコンを選択します。
 
-1. **[フレーズの追加]** に「`Schedule a real estate showing`」と入力し、**+** アイコンを選択します。
+1. **[フレーズの追加]** に「`不動産の内見を予定`」と入力し、**+** アイコンを選択します。
 
-1. **[フレーズの追加]** に「`Arrange the viewing for a real estate property`」と入力し、**+** アイコンを選択します。
+1. **[フレーズの追加]** に「`不動産物件の内見を手配`」と入力し、**+** アイコンを選択します。
 
-1. **[フレーズの追加]** に「`Set up an appointment to view a house`」と入力し、**+** アイコンを選択します。
+1. **[フレーズの追加]** に「`家の内見の予約を設定`」と入力し、**+** アイコンを選択します。
 
-1. **[フレーズの追加]** に「`Plan a property viewing`」と入力し、**+** アイコンを選択します。
+1. **[フレーズの追加]** に「`物件の内見を計画`」と入力し、**+** アイコンを選択します。
 
 1. **[保存]** を選択します。
