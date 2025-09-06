@@ -151,7 +151,7 @@ lab:
 
 1. **[更新]** を選択します。
 
-トピックの末尾に、ユーザーが選択できるオプションを含む新しい質問ノードが追加されます。
+    トピックの末尾に、ユーザーが選択できるオプションを含む新しい質問ノードが追加されます。
 
     ![Screenshot of the new question node with yes and no options.](../media/new-question-node.png)
     
